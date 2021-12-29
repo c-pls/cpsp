@@ -49,8 +49,6 @@ cpsp shuffle on                 Turn on shuffle playback
 cpsp shuffle off                Turn on shuffle playback
 
 cpsp lyric                      See the lyric of current song
-
-
 ````
 
 # Copyright

@@ -1,26 +1,40 @@
 # cpsp
 
-*Yet* another Spotify CLI tool written in Go.
+*Yet* another Spotify CLI tool written in Go. <br>
+Compatible with ***any*** OS.
 
 
 # Installation
+- ### Prerequisite: [Go](https://go.dev/)
     
+    - git clone [https://github.com/c-pls/cpsp.git](github.com/c-pls/cpsp.git) 
+    - cd cpsp
+    - go build && go install
+
 
 # Connect to Spotify App
 `cpsp` need to connect to Spotify's API.
     
-1. Go to the [Spotify dashboard](https://developer.spotify.com/dashboard/)
-2. Click Create an app
-    You now can see your Client ID and Client Secret
-3.Now click Edit Settings
-4.Add http://localhost:8888/callback to the Redirect URIs
-5.Scroll down and click Save
-6.Open terminal
-7. Run cpsp
-8.Enter your Client ID
-9.Enter your Client Secret
-10. You will be redirected to an official Spotify webpage to ask you for permissions.
-11. Accepting the permission
+-  Go to the [Spotify dashboard](https://developer.spotify.com/dashboard/)
+- Click Create an app (You now can see your Client ID and Client Secret)
+
+- Now click Edit Settings
+
+- Add http://localhost:8888/callback to the Redirect URIs
+
+- Scroll down and click Save
+
+- Open terminal (cmd or Powershell in Windows)
+
+- Run cpsp
+
+- Enter your Client ID
+
+- Enter your Client Secret
+
+- You will be redirected to an official Spotify webpage to ask you for permissions.
+
+- Accepting the permission
 
 # Usage
 

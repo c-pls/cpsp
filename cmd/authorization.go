@@ -2,15 +2,16 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
-	"github.com/zmb3/spotify/v2"
-	spotifyauth "github.com/zmb3/spotify/v2/auth"
 	"log"
 	"math/rand"
 	"net/http"
 	"os"
-	"os/exec"
+
+	browser "github.com/pkg/browser"
+	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
+	"github.com/zmb3/spotify/v2"
+	spotifyauth "github.com/zmb3/spotify/v2/auth"
 )
 
 const redirectURL = "http://localhost:8888/callback"
@@ -118,7 +119,8 @@ func GetAccessToken() {
 	}()
 
 	url := auth.AuthURL(state)
-	err := exec.Command("xdg-open", url).Run()
+	// err := exec.Command("xdg-open", url).Run()
+	err := browser.OpenURL(url)
 	if err != nil {
 		log.Fatal("Couldn't open browser " + err.Error())
 	}

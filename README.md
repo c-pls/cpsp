@@ -3,6 +3,7 @@
 *Yet* another Spotify CLI tool written in Go. <br>
 Compatible with ***any*** OS.
 
+![cpsp-gp](https://user-images.githubusercontent.com/64149480/150292068-50a03913-fed1-4814-8c23-a46e2c925eaf.png)
 
 # Installation
 - ### Prerequisite: [Go](https://go.dev/)
@@ -65,4 +66,7 @@ cpsp shuffle off                Turn on shuffle playback
 cpsp lyric                      See the lyric of current song
 ````
 
-# Copyright
+![cpsp-lyrics](https://user-images.githubusercontent.com/64149480/150292171-f37d7174-75e6-4f41-839e-adcddba67687.png)
+
+![cpsplyrcis-sub](https://user-images.githubusercontent.com/64149480/150292234-761cba1a-8b5f-4c46-9f97-6c8b2ec46dfd.png)
+
